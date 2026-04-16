@@ -233,26 +233,6 @@ The application uses MongoDB with the following main collections:
 - View analytics and reports
 - Handle disputes and issues
 
-## 🚀 Deployment
-
-### Heroku Deployment
-```bash
-# Add Heroku remote
-heroku git:remote -a your-app-name
-
-# Deploy
-git push heroku main
-```
-
-### Docker Deployment
-```bash
-# Build Docker image
-docker build -t food-delivery-app .
-
-# Run container
-docker run -p 5000:5000 food-delivery-app
-```
-
 ## 🧪 Testing
 
 ```bash
@@ -290,26 +270,5 @@ The application is fully responsive and works seamlessly on:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-If you encounter any issues or have questions:
-
-1. Check the documentation
-2. Search existing issues
-3. Create a new issue with detailed information
-4. Contact the development team
-
-## 🎉 Acknowledgments
-
-- React team for the amazing framework
-- Express.js team for the robust backend framework
-- MongoDB team for the excellent database
-- All contributors and supporters
-
----
 
 **Happy coding! 🚀**
