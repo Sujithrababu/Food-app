@@ -1,0 +1,18 @@
+import React from 'react';
+
+const Menu = () => {
+  return (
+    <div className="min-h-screen bg-gray-50 py-12">
+      <div className="container mx-auto px-4">
+        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
+          Restaurant Menu
+        </h1>
+        <p className="text-center text-gray-600 text-lg">
+          This page will display the restaurant's menu with food items, prices, and add to cart functionality.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Menu;
